@@ -1,0 +1,187 @@
+%%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%% Front matter for ADCS conference 
+%% Taken from Laurence Park's files from ADCS 2015
+%%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\documentclass[a4paper]{article}
+\usepackage{multicol} % needed for the list of participants, index
+\usepackage[bottom=3cm]{geometry} % needed to change margins for articles
+\usepackage{graphicx}
+
+\pagestyle{plain}
+\thispagestyle{empty}
+\pagenumbering{roman}
+
+
+\begin{document}
+
+
+\vspace{1in}
+
+
+%\begin{center}
+%{\Large\sc
+%Conferences in Research and Practice in \\
+%Information Technology \\
+
+%\
+
+%Volume 1}
+%\end{center}
+
+\begin{center}
+\noindent \Huge{\sc ADCS 2018} \\
+\vspace{5em}
+\noindent {\huge \sc Proceedings of the 23rd Australasian \\[.5em] Document Computing Symposium}
+
+
+\vspace{2em}
+
+\noindent { \Large \bf Dunedin, New Zealand, December 11-12, 2018\\[2em]}
+
+\noindent{ \Large Bevan Koopman, Andrew Trotman and Paul Thomas, Eds.} \\
+\noindent{\Large ISBN: 978-1-4503-6549-9/18/12}
+
+\end{center}
+
+% -- Pre-2010 version, including the \raisebox for the ACSW logo
+% -- For ACSW 2010 acsw.pdf was replaced with a new logo 
+% -- new-acsw-large.png
+%
+%\begin{figure}[b]
+%\centerline{\epsfig{file=../../General/ACS2spot.pdf, width=0.2\linewidth}
+%\hspace{0.2in}
+%\raisebox{6ex}{\epsfig{file=../../General/acsw.pdf, width=0.30\linewidth}}
+%\hspace{0.2in}
+%\epsfig{file=../../General/CORElogo.pdf, width=0.25\linewidth}
+%}
+%\end{figure}
+
+%ACM_ICPS_v.2B.jpg
+
+\vspace{20pt}
+
+
+\begin{center}
+    \includegraphics[width=0.3\textwidth]{../img/otago.png} \\
+
+    \vspace{1em}
+
+    \includegraphics[width=0.25\textwidth]{../img/ebay.png} \hspace{1em}
+    \includegraphics[width=0.25\textwidth]{../img/google.png} 
+    
+    
+
+    \includegraphics[width=0.25\textwidth]{sigir-logo.png} \hspace{4em}
+    \includegraphics[width=0.25\textwidth]{csiro-logo}
+\end{center}
+
+\vspace{3.3em}
+
+\hfill\includegraphics[width=0.2\textwidth]{icps-logo}
+
+\newpage
+
+\section*{Preface}
+
+These proceedings contain the papers presented at ADCS 2018, the Twenty Third 
+Australasian Document Computing Symposium, hosted by University of Otago 
+and held in Dunedin, New Zealand
+
+Of the 20 papers submitted, 4 were accepted as full papers and 9 were accepted
+as short papers. The full  written  version  of each submission received at
+least three anonymous reviews by independent, qualified international experts
+in the area. The review process followed a fully double-blind procedure. Dual submissions were explicitly prohibited.  The accepted
+contributions cover a diverse range of topics in document computing including efficiency, user models and evaluation, summarisation, and information retrieval
+models.
+
+The symposium includes formal presentations which allow for questions and
+discussions, but also opportunities to share ideas during interactive sessions
+and informal gatherings. Following the success of this format in ADCS 2018, we also invited attendees to present unrefereed posters in an informal poster session. This addition was suggested by ADCS steering committee to increase the chance for researchers, specifically PhD students, to present their early work for feedback. The titles for the posters are listed on the symposium website but not published in the proceedings. Once again we have collocated with the Australasian
+Language Technology Workshop (ALTA), sharing all keynote talks (two from ADCS and two from ALTA), a joint presentation session, poster session, and social events.
+
+We would like to thank the members of the program committee for their
+commitment to quality reviews. We would also like to thank ACM SIGIR, CSIRO Data61, Google, eBay and the University of Otago
+ for their generous support of the event. We would
+also like to thank our keynote speakers, Jon Degenhardt (eBay) and Professor David Bainbridge (University of Waikato), for sharing their views of new
+research trends in Information Retrieval and Data Science. Finally, we thank all attendees of
+ADCS 2018 who made the trip to Dunedin.
+
+\vspace{1cm}
+
+\begin{flushright}\noindent
+\textbf{Bevan Koopman}\\
+CSIRO \\[.1in]
+\textbf{Andrew Trotman}\\
+University of Otago\\[.1in]
+\textbf{Paul Thomas}\\
+Microsoft \\[.1in]
+ADCS 2018 Programme Chairs\\
+December 2018
+\end{flushright}
+
+\newpage
+
+
+\section*{Organising Committee}
+
+
+\subsection*{General Chair}
+
+Andrew Trotman, University of Otago
+
+
+\subsection*{Programme Chairs}
+
+Paul Thomas, Microsoft\\
+Bevan Koopman, CSIRO\\
+
+\subsection*{Programme Committee}
+Jaewon	Kim,	RMIT University \\
+Shlomo	Geva,	Queensland University of Technology \\\
+Guido	Zuccon,	The University of Queensland \\
+Joel	Mackenzie,	RMIT University \\
+Luke Gallagher,	RMIT University \\
+Gianluca	Demartini,	The University of Queensland \\
+Sally Jo	Cunningham,	Waikato University \\
+Shane	Culpepper,	RMIT University \\
+Leif	Azzopardi,	University of Strathclyde \\
+James A.	Thom,	RMIT University \\
+Mark	Carman,	Monash \\
+Peter	Bruza,	Queensland University of Technology \\
+Alexandra	Uitdenbogerd,	RMIT University \\
+Sherlock	Licorish,	University of Otago \\
+Peter	Bailey	Microsoft \\
+David	Eyers,	University of Otago \\
+Andrew	Turpin,	The University of Melbourne \\
+Matt	Crane,	University of Waterloo \\
+Sarvnaz	Karimi,	CSIRO \\
+Alistair	Moffat,	The University of Melbourne \\
+Laurianne	Sitbon,	Queensland University of Technology \\
+
+
+\newpage
+
+\section*{List of Accepted Papers}
+
+\subsection*{Long Papers}
+
+\begin{enumerate}
+\item Paul Thomas, Alistair Moffat, Peter Bailey, Falk Scholer and Nick Craswell. Better Effectiveness Metrics for SERPs, Cards, and Rankings\item Alfan Farizki Wicaksono and Alistair Moffat. Exploring Interaction Patterns in Job Search
+\item Ziying Yang, Alistair Moffat and Andrew Turpin. Pairwise Crowd Judgments: Preference, Absolute, and Ratio
+\item Andrew Trotman and Kat Lilly. Elias Revisited: Group Elias SIMD Coding
+\end{enumerate}
+
+\subsection*{Short Papers}
+
+\begin{enumerate}\item Luke Gallagher, Joel Mackenzie and J. Shane Culpepper. Revisiting Spam Filtering in Web Search
+\item Bevan Koopman, Anthony Nguyen, Danica Cossio, Mary-Jane Courage and Gary Francois. Extracting Cancer Mortality Statistics from Free-text Death Certificates: A View from the Trenches.\item Harrie Oosterhuis, J. Shane Culpepper and Maarten de Rijke. The Potential of Learned Index Structures for Index Compression\item Timothy Chappell, Shlomo Geva, James Hogan and Dimitri Perrin. Rapid hierarchical clustering of biological sequences\item Ameer Albahem, Damiano Spina, Falk Scholer, Alistair Moffat and Lawrence Cavedon. Desirable Properties for Diversity and Truncated Effectiveness Metrics\item Lawrence Buckingham, Shlomo Geva and James Hogan. Protein database search using compressed k-mer vocabularies\item Binsheng Liu, Xiaolu Lu, Oren Kurland and J. Shane Culpepper. Improving Search Effectiveness with Field-based Relevance Modeling\item Reuben Crimp and Andrew Trotman. Refining Query Expansion Terms using Query Context\item Dilesha Seneviratne, Shlomo Geva, Guido Zuccon, Gabriela Ferraro and Magali Meireles. Linking Patents to Knowledge Sources: A Context Matching Technique using Automatic Patent Classification
+\end{enumerate}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
